@@ -1,0 +1,73 @@
+.editor{
+  height: 100vh;
+  width: 100%;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+}
+.heading h3{
+  margin-left: 20px;
+}
+.heading button{
+  position: absolute;
+  right: 10px;
+  width: 5%;
+  background-color: rgb(163, 159, 159);
+  border-radius: 5px;
+  padding: 2px;
+  transition: all 900ms;
+  cursor: pointer;
+}
+.heading button:hover{
+  background-color: white;
+
+}
+.heading p{
+  position: absolute;
+  left: 40px;
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  height: 46%;
+}
+.left div{
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  padding: 5px;
+  height: 100%;
+}
+.left label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left textarea{
+  height: 100%;
+  overflow: visible;
+  resize: none;
+  font-size: 1rem;
+  border: 0;
+  outline: 0; 
+  padding: 7px 10px;
+}
+.right{
+  height: 46%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 15px;
+}
+
+.right iframe{
+  height: 100%;
+  width: 95%;
+  background-color:white;
+}
